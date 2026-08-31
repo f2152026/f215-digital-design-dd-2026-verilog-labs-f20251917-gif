@@ -1,0 +1,4 @@
+The waveform doesn't change for task 1(b) compared to 1(a) as reordering the gates doesnt change the logic and verilog executes statements 
+concurently and not sequentially so the execution of the code wouldnt change.
+The waveform does change for task 1(c) compared to 1(a) as now changes in inputs in the testbench take time to propagate thorugh gates
+so the values of pc2,ps,sum,cout,pc1 change at different times.

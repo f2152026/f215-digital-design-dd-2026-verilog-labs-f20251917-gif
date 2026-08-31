@@ -1,0 +1,4 @@
+For the 7 + 1 test vector, the delayed ripple-carry adder takes the longest to settle because the carry must propagate through all four full-adder stages. 
+The gate-level CLA settles faster because the carries are generated using lookahead equations rather than waiting for the previous carry.
+The dataflow CLA also settles faster than the RCA because it uses the same carry-lookahead equations. Thus, the expected ordering is RCA
+ slowest, CLA implementations faster.
